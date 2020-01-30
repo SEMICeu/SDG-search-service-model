@@ -2,11 +2,11 @@
 This is the repository for defining the Single Digital Gateway metadata model  
   
 ## All relevant documents can be found here:  
-   The model itself;  
-   The business case and the technical specification;  
-   A concrete example;  
-   The SDGR analysis;  
-   The classification analysis.  
+   A concrete example
+   The model itself in visual  
+   The business case and the technical specification  
+   The SDGR analysis for creating this model
+   The classification proposition
      
 The context and goals of this action, the role of ISA² and the Catalogue of Services and the contact details can be found here:   https://github.com/catalogue-of-services-isa/SDG-model/wiki/SDG-model-Home-Page
 
@@ -25,5 +25,4 @@ Other documents in attachment:
 * The SDGR Concept analysis, an Excel sheet were the concepts from the SDGR are mapped to existing data models.
 * The SDG Classifications, an in-detail overview of the different classifications proposed for the SDG Data model, including the explanation why the classification is included in the model.
 
-If you would have any questions, do not hesitate to reach out to us via email (barthelemy.florian@pwc.com) or post an issue on our GitHub page.
-
+If you would have any questions, do not hesitate to reach out to us via email (barthelemy.florian@pwc.com) or post an issue on this repository.

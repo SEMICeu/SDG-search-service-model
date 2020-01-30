@@ -2,11 +2,11 @@
 This is the repository for defining the Single Digital Gateway metadata model  
   
 ## All relevant documents can be found here:  
-   A concrete example
-   The model itself in visual  
-   The business case and the technical specification  
-   The SDGR analysis for creating this model
-   The classification proposition
+ * A concrete example
+ * The model itself in visual  
+ * The business case and the technical specification  
+ * The SDGR analysis for creating this model
+ * The classification proposition
      
 The context and goals of this action, the role of ISA² and the Catalogue of Services and the contact details can be found here:   https://github.com/catalogue-of-services-isa/SDG-model/wiki/SDG-model-Home-Page
 

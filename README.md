@@ -1,7 +1,7 @@
 # SDG-model
 This is the repository for defining the Single Digital Gateway metadata model  
   
-## All relevant documents can be found here:  
+## All relevant documents can be found [here](https://github.com/catalogue-of-services-isa/SDG-model/tree/master/Pre-releases/v0.01):  
  * A concrete example
  * The model itself in visual  
  * The technical specification (including the explanation of the business case in the first section) 

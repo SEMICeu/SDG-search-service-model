@@ -25,4 +25,6 @@ Other documents in attachment:
 * The SDGR Concept analysis, an Excel sheet were the concepts from the SDGR are mapped to existing data models.
 * The SDG Classifications, an in-detail overview of the different classifications proposed for the SDG Data model, including the explanation why the classification is included in the model.
 
+[Link](https://github.com/catalogue-of-services-isa/SDG-model/tree/master/Pre-releases/v0.01) to the documents.
+
 If you would have any questions, do not hesitate to reach out to us via email (barthelemy.florian@pwc.com) or post an issue on this repository.

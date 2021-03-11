@@ -1,30 +1,28 @@
-# SDG-model
-This is the repository for defining the Single Digital Gateway metadata model  
+# SDG-services-model
+This is the repository for defining the Single Digital Gateway services model
   
-## All relevant documents can be found [here](https://github.com/catalogue-of-services-isa/SDG-model/tree/master/Pre-releases/v0.01):  
- * A concrete example
- * The model itself in visual  
- * The technical specification (including the explanation of the business case in the first section) 
- * The SDGR analysis for creating this model 
- * The classification proposition 
+## All relevant documents are available:
+ * [The analysis](https://github.com/catalogue-of-services-isa/SDG-services-model/tree/master/SDG%20concepts) with identified concepts from the SDGR
+ * [Archive](https://github.com/catalogue-of-services-isa/SDG-services-model/tree/master/archive): Modelling activities from 2019-2020, including technical specifications, classifications and visualised models
      
-The context and goals of this action, the role of ISA² and the Catalogue of Services and the contact details can be found here:   https://github.com/catalogue-of-services-isa/SDG-model/wiki/SDG-model-Home-Page
+The context and goals of this action, the role of ISA² and the Catalogue of Services and the contact details can be found here:   https://github.com/catalogue-of-services-isa/SDG-services-model/wiki/SDG-services-model-Home-Page
 
 ## Detailed description:
-To provide detailed guidelines on how this model should be read and what we understand for all classes, properties and relationships, we have attached multiple documents to this communication. Depending on your area of expertise you can read the documents relevant for you.
+The information requirements from the SDGR are modelled by identifying concepts that could be harmonized to improve the findability, understandability and quality requirements related to information on rights, obligations and rules, on procedures and on assistance and problem-solving services (articles 9, 10 and 11 to the Regulation)
 
-Firstly, we have added an image of the Extended and one of the Core SDG Data Model. All elements that can be found in the Core model are also present in the Extended model.
-The main document is the SDG Data Model Specification, which provides an in-detail overview of the different classes and properties, including the reason why an element is part of the Extended model or the Core model. (All Core elements are part of the Extended model as well). This document contains:
-* An introduction
-* The distinction between Extended and Core
-* The classes and properties of the model
-* An explanation on the recommended vocabularies
-* An example of the mapping of a public service
+Therefore, an initial [list of concepts](https://github.com/catalogue-of-services-isa/SDG-services-model/tree/master/SDG%20concepts) from the SDGR is created, with the focus on concepts from articles 9,10 and 11. In this list, you will see each concept with an explanation, references to the regulation, priority proposal in terms of being part of a common data model and a few questions. Note that, in most cases, the names of the concepts are directly coming from the Regulation and are not definitive.
 
-Other documents in attachment:
-* The SDGR Concept analysis, an Excel sheet were the concepts from the SDGR are mapped to existing data models.
-* The SDG Classifications, an in-detail overview of the different classifications proposed for the SDG Data model, including the explanation why the classification is included in the model.
+Through this exercise, we will derive in a pragmatic way with you the most important important information to be captured, which will form the basis of our data model. The implementation of this  data model needs to be agreed and could be applied in a phased approach, starting with pilots.
 
-[Link](https://github.com/catalogue-of-services-isa/SDG-model/tree/master/Pre-releases/v0.01) to the documents.
+## Archive
+In the past year, we have created a data model for the SDGR in a different approach, starting from all the information available in the regulation and creating an elaborate data model. This work can be used as a referral and guidance for the current exercise, which starts from concrete use cases: the findability, understandability and quality of the information from the SDGR, and in particular from articles 9 to 11.  All the issues that are still open in the repository refer to the work on the data model classified to the archive, but can serve as reference for the latest modelling activities. 
 
-If you would have any questions, do not hesitate to reach out to us via email (barthelemy.florian@pwc.com) or post an issue on this repository.
+In the [archive](https://github.com/catalogue-of-services-isa/SDG-services-model/tree/master/archive) we have gathered all the information from previous data modelling exercises (two versions v0.01 and v0.02 have been created):
+* Draft model as a visual diagram
+* Technical specifications of the draft model
+* An SDGR analysis for creating this draft model
+* Classification propositions
+* Business cases
+* Examples
+
+If you have any questions, do not hesitate to reach out to us via email (barthelemy.florian@pwc.com) or post an issue on this repository.

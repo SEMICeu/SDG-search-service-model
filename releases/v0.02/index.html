@@ -1,0 +1,1132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xml:lang="en" lang="en" dir="ltr" typeof="bibo:Document " about="" property="dcterms:language" content="en" prefix="dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/ schema: http://schema.org/ w3p: http://www.w3.org/2001/02pd/rec54#" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+   
+  <title>SDG search service model</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://dij151upo6vad.cloudfront.net/2.latest/css/vlaanderen-ui.css" />
+  <link rel="stylesheet" href="https://dij151upo6vad.cloudfront.net/2.latest/css/vlaanderen-ui-corporate.css" />
+
+  <link rel="icon" sizes="192x192" href="/cms/icons/DUETLogo.jpg" />
+  <link rel="apple-touch-icon" href="/cms/icons/DUETLogo.jpg" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/cms/icons/DUETLogo.jpg" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/cms/icons/DUETLogo.jpg" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/cms/icons/DUETLogo.jpg" />
+
+  <meta name="msapplication-square70x70logo" content="/cms/icons/DUETLogo.jpg" />
+  <meta name="msapplication-square150x150logo" content="/cms/icons/DUETLogo.jpg" />
+  <meta name="msapplication-wide310x150logo" content="/cms/icons/DUETLogo.jpg" />
+  <meta name="msapplication-square310x310logo" content="/cms/icons/DUETLogo.jpg" />
+  <meta name="msapplication-TileColor" content="#7ED956" />
+</head>
+
+<body>
+
+  <script type="text/javascript">
+      function iframeLoaded() {
+         var iFrameID = document.getElementById('exampleiframe');
+          if(iFrameID) {
+                // here you can make the height, I delete it first, then I make it again
+                iFrameID.height = "";
+                iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
+          }   
+      }
+  </script> 
+
+  <div style="min-height:44px;;" id="duet-header" class="header">
+    <!-- insert your global header here -->
+    <title>SEMIC</title>
+    <i class="logo">SEMIC logo</i>
+    <!-- end global header-->
+  </div>
+
+  <!-- Start page content -->
+  <div class="page">
+    <div class="layout layout--wide">
+      <div class="skiplink">
+        <a rel="nofollow noreferrer" href="#main">Skip this section and go to general content</a>
+      </div>
+    </div>
+    <div class="page">
+      <div class="region">
+        <div class="layout layout--wide">
+          <div class="grid u-hr">
+            <div class="col--9-12 col--1-1--s">
+              <h1 class="h1">SDG search service model</h1>
+
+              <div class="head" role="status" id="status">
+              <dl>
+              <dt>Status</dt><dd>Working Draft</dd>
+              <dt>Published at</dt><dd>2021-05-28</dd>
+              <dt>This version</dt><dd><a href="https://semiceu.github.io/TODO/releases/2.00">https://semiceu.github.io/TODO/releases/2.00</a></dd>
+              
+              
+              </dl>
+              </div>
+
+              <div class="head" role="contentinfo" id="respecHeader">
+                <dl>
+                        
+                          
+                        
+                        
+                          <dt>Editors</dt>
+                          
+                          <dd inlist="" rel="bibo:editor" class="p-author h-card vcard">
+                              <span typeof="foaf:Person">
+                              <span class="p-name fn" property="foaf:lastName">Alvarez Rodriguez</span>,
+                              <span class="p-name fn" property="foaf:firstName">Miguel</span>
+                              
+                                 - <span class="p-org org h-org h-card">European Commission</span>
+                              
+                							
+                							</span>
+                          </dd>
+                        
+                          <dd inlist="" rel="bibo:editor" class="p-author h-card vcard">
+                              <span typeof="foaf:Person">
+                              <span class="p-name fn" property="foaf:lastName">Barthelemy</span>,
+                              <span class="p-name fn" property="foaf:firstName">Florian</span>
+                              
+                                 - <span class="p-org org h-org h-card">PwC EU Services</span>
+                              
+                							
+                							</span>
+                          </dd>
+                        
+                          <dd inlist="" rel="bibo:editor" class="p-author h-card vcard">
+                              <span typeof="foaf:Person">
+                              <span class="p-name fn" property="foaf:lastName">De Keyzer</span>,
+                              <span class="p-name fn" property="foaf:firstName">Michiel</span>
+                              
+                                 - <span class="p-org org h-org h-card">PwC EU Services</span>
+                              
+                							
+                							</span>
+                          </dd>
+                        
+                          <dd inlist="" rel="bibo:editor" class="p-author h-card vcard">
+                              <span typeof="foaf:Person">
+                              <span class="p-name fn" property="foaf:lastName">Pittomvils</span>,
+                              <span class="p-name fn" property="foaf:firstName">Maxime</span>
+                              
+                                 - <span class="p-org org h-org h-card">PwC EU Services</span>
+                              
+                							
+                							</span>
+                          </dd>
+                        
+                        
+                      
+                      
+                </dl>
+              </div>
+
+              <div class="head" role="metainfo" id="metainfo">
+              <dl>
+              <dt>Source</dt><dd><a href="https://github.com/SEMICeu/TODO/tree/master/releases/2.00">https://github.com/SEMICeu/TODO/tree/master/releases/2.00</a></dd>
+              <!--<dt>Changelog</dt><dd><a href="https://github.com/bertvannuffelen/semiceuthema/blob/5101e6285fa42238ecc1bb9134780fc26033332e/CHANGELOG">https://github.com/bertvannuffelen/semiceuthema/blob/5101e6285fa42238ecc1bb9134780fc26033332e/CHANGELOG</a></dd>-->
+              <dt>Feedback</dt><dd><a href="https://github.com/catalogue-of-services-isa/SDG-services-model/issues">https://github.com/catalogue-of-services-isa/SDG-services-model/issues</a></dd>
+              <!--<dt>Registry of standards</dt><dd><a href="TODO">TODO</a></dd>-->
+
+              <!--<dt>Dependencies</dt><dd>
+                
+		</dd>-->
+              </dl>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="main" itemprop="mainContentOfPage" role="main" tabindex="-1" class="main-content">
+      <div class="layout layout--wide">
+        <div class="grid">
+          <div class="col--8-12 col--12-12--s">
+
+            <div class="region region--no-space-top typography" id="summary">
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Summary</h2>
+		<!--
+		<p>This document describes the <strong>SDG search service model</strong>.</p>
+                -->
+                
+<p>
+The SDG Search Service model proposed by the Catalogue of Services Action focuses on the information requirements of the Single Digital Gateway Regulation, with a focus on articles 9, 10 and 11. The main use case of this model is to make a minimal set of information about the public services relevant for the regulation easily findable through the YourEurope portal. The model builds on top of the metadata for URLs or metadata required by the repository of links (<a href="https://ec.europa.eu/assets/grow/growth/_toolbox/sdg-docs/metadata-for-urls.pdf">specification</a> and <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32020R1121&from=EN#d1e32-12-1">Implementing Act July 2020</a>). Moreover, it uses as main sources the Core Vocabularies developed and maintained by the ISA² Programme, and in particular the Core Public Service Vocabulary-Application Profile (CPSV-AP). The model is built around two main concepts:
+  <ul>
+    <li>Public Service: a mandatory or discretionary set of activities performed, or able to be performed, by or on behalf of a public organisation, publicly funded and arise from public policy. It is covering all information about the services offered by competent authorities in the EEA countries and the European Commission as part of the Single Digital Gateway Regulation (EU) 2018/1724.
+    <li>Webpage: the hypertext document containing the information about the Public Service.
+  </ul>
+</p>
+<p>
+The main idea of the SDG Search Service model is to enable competent authorities to use common metadata to structure their public services, independently from the level of granularity or complexity of these services. The model does not impose to public organisations a fixed number of public services identified as in-scope of the Regulation. Similarly, each public service can have one or several webpages indicated as containing relevant information for this service.
+</p>
+
+            </div>
+
+            <div class="region region--no-space-top typography" id="status">
+              <section class="introductory" id="sotd" typeof="bibo:Chapter" resource="#ref" rel="bibo:Chapter">
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Status of this document</h2>
+                
+                <p>
+                  This model has the status of Working Draft published on 2021-05-28.
+	        </p>
+                
+              </section>
+            </div>
+
+            <!--<div class="region region--no-space-top typography" id="license">
+              <h2 class="h2">License</h2>
+              
+<p>This specification of <a href=”https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic”>SEMIC</a> is published under “<a href=”https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11”ISA Open Metadata Licence 1.1</a>”.</p>
+
+            </div>
+	    -->
+            <div class="region region--no-space-top typography" id="conformance">
+              <h2 class="h2" id="conformance" aria-level="1" role="heading">Conformance</h2>
+              
+              <p>TBD</p>
+              
+            </div>
+            <div class="region region--no-space-top" id="overview">
+              <h2 class="h2">Overview</h2>
+              <div class="grid">
+                <div class="col--9-12 col--1-1--s typography">
+                  
+                  <div class="region region--no-space-top">
+                    <p>This document describes the usage of the following entities for a correct usage of the Core Vocabulary: 
+                      <br />
+                      |
+                      <a href="#Event">Event</a> |
+                      <a href="#Linguistic System">Linguistic System</a> |
+                      <a href="#Location">Location</a> |
+                      <a href="#Output">Output</a> |
+                      <a href="#Public Organisation">Public Organisation</a> |
+                      <a href="#Public Service">Public Service</a> |
+                      <a href="#Webpage">Webpage</a> |
+                    </p>
+                  </div>
+                  
+		  
+                </div>
+              </div>
+            </div>
+
+            <div class="region region--no-space-top">
+              <a href="./html/overview.jpg" target="_blank">
+                 <img src="./html/overview.jpg" />
+              </a>
+            </div>
+            <div class="region region--no-space-top">
+              <h2 class="h2">Entities</h2>
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Event"><a href="http://data.europa.eu/m8g/Event" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/Event" data-placement="right">Event</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>The event that the Public Service covers.</dd>
+                    
+		    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#Event%3Atype">type</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+			<th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Event%3Atype" typeof="rdfs:Property" resource="http://purl.org/dc/terms/type">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/type" data-toggle="tooltip" data-content="http://purl.org/dc/terms/type" data-placement="right">
+                            type</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
+                            
+                          
+                        </td>
+			<td>0..*</td>
+                        <td property="rdfs:comment">The type of the Event as defined in a controlled vocabulary.</td>
+                        <td property="skos:scopeNote">Events as proposed in the procedures of Annex II of the Regulation: <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1">https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1</a>. 
+Similarly to the Output type, the Event type can be retrieved automatically from the policy code indicated.</td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Linguistic System"><a href="http://purl.org/dc/terms/LinguisticSystem" data-toggle="tooltip" data-content="http://purl.org/dc/terms/LinguisticSystem" data-placement="right">Linguistic System</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>The language in which the Public Service is provided on the Webpage.</dd>
+                    
+		    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#Linguistic%20System%3Alanguage">language</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+			<th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Linguistic%20System%3Alanguage" typeof="rdfs:Property" resource="http://purl.org/dc/terms/language">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/language" data-toggle="tooltip" data-content="http://purl.org/dc/terms/language" data-placement="right">
+                            language</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
+                            
+                          
+                        </td>
+			<td>1</td>
+                        <td property="rdfs:comment">The code which indicates the language.</td>
+                        <td property="skos:scopeNote">The linguistic system will be defined by the ISO 639-1 code, e.g. 'en' for English. The Publications Office proposes a controlled vocabulary for languages fully compliant with ISA 639-1 (alpha 2): <a href="http://publications.europa.eu/resource/dataset/language">http://publications.europa.eu/resource/dataset/language</a>. More information can be found here: <a href="https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/language">https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/language</a>.</td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Location"><a href="http://purl.org/dc/terms/Location" data-toggle="tooltip" data-content="http://purl.org/dc/terms/Location" data-placement="right">Location</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>An identifiable geographic place or named place.</dd>
+                    
+		    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#Location%3Ageographic%20identifier">geographic identifier</a>, 
+                      <a href="#Location%3Ageographic%20name">geographic name</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+			<th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Location%3Ageographic%20identifier" typeof="rdfs:Property" resource="http://purl.org/dc/terms/identifier">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/identifier" data-toggle="tooltip" data-content="http://purl.org/dc/terms/identifier" data-placement="right">
+                            geographic identifier</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#anyURI" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#anyURI" data-placement="right">URI</a>
+                            
+                          
+                        </td>
+			<td>1..*</td>
+                        <td property="rdfs:comment">A unique identifier for the Location.</td>
+                        <td property="skos:scopeNote">NUTS(<a href="https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/nuts">https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/nuts</a>)(Nomenclature of Territorial Units for Statistics) or LAU(<a href="https://ec.europa.eu/eurostat/web/nuts/local-administrative-units">https://ec.europa.eu/eurostat/web/nuts/local-administrative-units</a> )(Local administrative units) vocabulary. 
+NUTS 1,2,3 defines regions into three different levels. NUTS 0 is the 'national' level of the Member States.
+LAU is only defined in a spreadsheet. NUTS and LAU are complementary.
+It is best to include the lowest level possible, as the higher levels could be automatically retrieved.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Location%3Ageographic%20name" typeof="rdfs:Property" resource="http://purl.org/dc/terms/title">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/title" data-toggle="tooltip" data-content="http://purl.org/dc/terms/title" data-placement="right">
+                            geographic name</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2000/01/rdf-schema#Literal" data-toggle="tooltip" data-content="http://www.w3.org/2000/01/rdf-schema#Literal" data-placement="right">Literal</a>
+                            
+                          
+                        </td>
+			<td>1..*</td>
+                        <td property="rdfs:comment">The geographic name of the Location.</td>
+                        <td property="skos:scopeNote">The name will be automatically retrieved from the NUTS or LAU code indicated.</td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Output"><a href="http://data.europa.eu/m8g/Output" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/Output" data-placement="right">Output</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>The expected results of the Public Service.</dd>
+                    
+                    <dt>Usage</dt><dd>Outputs can be any resource - document, artefact - anything produced by the Public Service. In the context of a Public Service, the output provides an official document or other artefact of the Competent Authority (Public Organization) that permits/authorises/entitles an Agent (such as the person that is requesting the Public Service) to (do) something.</dd>
+                    
+		    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#Output%3Adescription">description</a>, 
+                      <a href="#Output%3Aidentifier">identifier</a>, 
+                      <a href="#Output%3Aname">name</a>, 
+                      <a href="#Output%3Atype">type</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+			<th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Output%3Adescription" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
+                            description</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2000/01/rdf-schema#Literal" data-toggle="tooltip" data-content="http://www.w3.org/2000/01/rdf-schema#Literal" data-placement="right">Literal</a>
+                            
+                          
+                        </td>
+			<td>1..*</td>
+                        <td property="rdfs:comment">A free text description of the Output.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Output%3Aidentifier" typeof="rdfs:Property" resource="http://purl.org/dc/terms/identifier">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/identifier" data-toggle="tooltip" data-content="http://purl.org/dc/terms/identifier" data-placement="right">
+                            identifier</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2000/01/rdf-schema#Literal" data-toggle="tooltip" data-content="http://www.w3.org/2000/01/rdf-schema#Literal" data-placement="right">Literal</a>
+                            
+                          
+                        </td>
+			<td>1..*</td>
+                        <td property="rdfs:comment">A unique identifier of the Output produced by the Public Service.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Output%3Aname" typeof="rdfs:Property" resource="http://purl.org/dc/terms/title">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/title" data-toggle="tooltip" data-content="http://purl.org/dc/terms/title" data-placement="right">
+                            name</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2000/01/rdf-schema#Literal" data-toggle="tooltip" data-content="http://www.w3.org/2000/01/rdf-schema#Literal" data-placement="right">Literal</a>
+                            
+                          
+                        </td>
+			<td>1..*</td>
+                        <td property="rdfs:comment">The name of the Output that is produced by the Public Service.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Output%3Atype" typeof="rdfs:Property" resource="http://purl.org/dc/terms/type">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/type" data-toggle="tooltip" data-content="http://purl.org/dc/terms/type" data-placement="right">
+                            type</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
+                            
+                          
+                        </td>
+			<td>0..*</td>
+                        <td property="rdfs:comment">The type of the Output as defined in a controlled vocabulary.</td>
+                        <td property="skos:scopeNote">The controlled vocabulary agreed for now is the one defined in the Annex II of the Regulation: <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1">https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1</a>.
+When using the different codes from the Regulation, some codes can be retrieved automatically. For example, if the Public Service is identified as relevant for the procedure 'Requesting proof of registration of birth', the Output type 'Proof of registration of birth or birth certificate' can automatically be derived from it and attached to the Public Service and its Output.</td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Public Organisation"><a href="http://data.europa.eu/m8g/PublicOrganisation" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/PublicOrganisation" data-placement="right">Public Organisation</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>The Public Organisation that is providing the Public Service.</dd>
+                    
+                    <dt>Usage</dt><dd>The Public Organisation reuses Core Public Organisation Vocabulary, in which Public Organisation is a Organisation and Agent.</dd>
+                    
+		    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#Public%20Organisation%3Aidentifier">identifier</a>, 
+                      <a href="#Public%20Organisation%3Apreferred%20label">preferred label</a>, 
+                      <a href="#Public%20Organisation%3Aspatial">spatial</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+			<th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Public%20Organisation%3Aidentifier" typeof="rdfs:Property" resource="http://purl.org/dc/terms/identifier">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/identifier" data-toggle="tooltip" data-content="http://purl.org/dc/terms/identifier" data-placement="right">
+                            identifier</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2000/01/rdf-schema#Literal" data-toggle="tooltip" data-content="http://www.w3.org/2000/01/rdf-schema#Literal" data-placement="right">Literal</a>
+                            
+                          
+                        </td>
+			<td>1..*</td>
+                        <td property="rdfs:comment">A unique identifier of the Public Organisation.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Public%20Organisation%3Apreferred%20label" typeof="rdfs:Property" resource="http://www.w3.org/2004/02/skos/core#prefLabel">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://www.w3.org/2004/02/skos/core#prefLabel" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#prefLabel" data-placement="right">
+                            preferred label</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2000/01/rdf-schema#Literal" data-toggle="tooltip" data-content="http://www.w3.org/2000/01/rdf-schema#Literal" data-placement="right">Literal</a>
+                            
+                          
+                        </td>
+			<td>1..*</td>
+                        <td property="rdfs:comment">The preferred label of the Public Organisation.</td>
+                        <td property="skos:scopeNote">As defined in the ORG Ontology, a preferred label is used to provide the primary, legally recognised name of the organisation. An organisation may only have one such name in any given language. Primary names may be provided in multiple languages with multiple instances of the preferred label property.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Public%20Organisation%3Aspatial" typeof="rdfs:Property" resource="http://purl.org/dc/terms/spatial">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/spatial" data-toggle="tooltip" data-content="http://purl.org/dc/terms/spatial" data-placement="right">
+                            spatial</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Location" data-placement="right">Location</a>
+			    
+                          
+                        </td>
+			<td>1</td>
+                        <td property="rdfs:comment">The Location, or given area, in which the Public Organisation is competent.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Public Service"><a href="http://purl.org/vocab/cpsv#PublicService" data-toggle="tooltip" data-content="http://purl.org/vocab/cpsv#PublicService" data-placement="right">Public Service</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>A Public Service is a mandatory or discretionary set of activities performed, or able to be performed, by or on behalf of a public organisation, publicly funded and arise from public policy. It is covering all information about the services offered by competent authorities in the EEA countries and the European Commission as part of the Single Digital Gateway Regulation (EU) 2018/1724.</dd>
+                    
+                    <dt>Usage</dt><dd>Services may be for the benefit of an individual, a business, or other public authority, or groups of any of these. A service exists whether it is used or not, and the term 'benefit' may apply in the sense of enabling the fulfilment of an obligation. Typical examples of public Services are "registering a car", "requesting a birth certificate", etc.</dd>
+                    
+		    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#Public%20Service%3Adescription">description</a>, 
+                      <a href="#Public%20Service%3Ahas%20competent%20authority">has competent authority</a>, 
+                      <a href="#Public%20Service%3Ahas%20webpage">has webpage</a>, 
+                      <a href="#Public%20Service%3Aidentifier">identifier</a>, 
+                      <a href="#Public%20Service%3Ais%20grouped%20by">is grouped by</a>, 
+                      <a href="#Public%20Service%3Aname">name</a>, 
+                      <a href="#Public%20Service%3Apolicy%20code">policy code</a>, 
+                      <a href="#Public%20Service%3Aproduces">produces</a>, 
+                      <a href="#Public%20Service%3Aspatial">spatial</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+			<th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Public%20Service%3Adescription" typeof="rdfs:Property" resource="http://purl.org/dc/terms/description">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/description" data-toggle="tooltip" data-content="http://purl.org/dc/terms/description" data-placement="right">
+                            description</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2000/01/rdf-schema#Literal" data-toggle="tooltip" data-content="http://www.w3.org/2000/01/rdf-schema#Literal" data-placement="right">Literal</a>
+                            
+                          
+                        </td>
+			<td>1..n</td>
+                        <td property="rdfs:comment">A free text description of the Public Service.</td>
+                        <td property="skos:scopeNote">The description is likely to be the text that potential users of the Public Service see in any public service catalogue. Public Service providers are encouraged to include a reasonable level of detail in the description, for instance including basic eligibility requirements for the particular Public Service and contact information. This typically represents part of the content included in the general information page about the Public Service. In practice for the search results in a search engine or in YourEurope, only the top lines will be displayed.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Public%20Service%3Ahas%20competent%20authority" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/hasCompetentAuthority">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/hasCompetentAuthority" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/hasCompetentAuthority" data-placement="right">
+                            has competent authority</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Public Organisation" data-placement="right">Public Organisation</a>
+			    
+                          
+                        </td>
+			<td>1</td>
+                        <td property="rdfs:comment">Any Member State authority or body established at national, regional or local level with specific responsibilities relating to the information, procedures, assistance and problem-solving services covered by the Single Digital Gateway Regulation.</td>
+                        <td property="skos:scopeNote">This is aligned with CPSV-AP where the property links a Public Service to a Public Organisation, which is responsible for the delivery of the Public Service. Whether the particular Public Organisation provides the public service directly or outsources it is not relevant. The Public Organisation that is the Competent Authority of the service is the one that is ultimately responsible for managing and providing the public service.
+The term Competent Authority is defined in the Services Directive (2006/123/EC) in the following way:
+
+'Any body or authority which has a supervisory or regulatory role in a Member State in relation to service activities, including, in particular, administrative authorities, including courts acting as such, professional bodies, and those professional associations or other professional organisations which, in the exercise of their legal autonomy, regulate in a collective manner access to service activities or the exercise thereof'.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Public%20Service%3Ahas%20webpage" typeof="rdfs:Property" resource="TBD">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="TBD" data-toggle="tooltip" data-content="TBD" data-placement="right">
+                            has webpage</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Webpage" data-placement="right">Webpage</a>
+			    
+                          
+                        </td>
+			<td>1..*</td>
+                        <td property="rdfs:comment">The Webpage(s) on which the information is provided about the Public Service.</td>
+                        <td property="skos:scopeNote">The Member State authority is ultimately responsible for deciding how many Webpages should be identified for each Public Service. In certain countries, each Public Service will be redirected to one Webpage at national level with general information and information about the procedure. In other countries, one Webpage could be indicated per region or sub-national levels.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Public%20Service%3Aidentifier" typeof="rdfs:Property" resource="http://purl.org/dc/terms/identifier">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/identifier" data-toggle="tooltip" data-content="http://purl.org/dc/terms/identifier" data-placement="right">
+                            identifier</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2000/01/rdf-schema#Literal" data-toggle="tooltip" data-content="http://www.w3.org/2000/01/rdf-schema#Literal" data-placement="right">Literal</a>
+                            
+                          
+                        </td>
+			<td>1..n</td>
+                        <td property="rdfs:comment">A unique identifier of the Public Service.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Public%20Service%3Ais%20grouped%20by" typeof="rdfs:Property" resource="http://data.europa.eu/m8g/isGroupedBy">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://data.europa.eu/m8g/isGroupedBy" data-toggle="tooltip" data-content="http://data.europa.eu/m8g/isGroupedBy" data-placement="right">
+                            is grouped by</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Event" data-placement="right">Event</a>
+			    
+                          
+                        </td>
+			<td>0..*</td>
+                        <td property="rdfs:comment">This property links the Public Service class to the Event class.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Public%20Service%3Aname" typeof="rdfs:Property" resource="http://purl.org/dc/terms/title">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/title" data-toggle="tooltip" data-content="http://purl.org/dc/terms/title" data-placement="right">
+                            name</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2000/01/rdf-schema#Literal" data-toggle="tooltip" data-content="http://www.w3.org/2000/01/rdf-schema#Literal" data-placement="right">Literal</a>
+                            
+                          
+                        </td>
+			<td>1..n</td>
+                        <td property="rdfs:comment">The official name of the Public Service.</td>
+                        <td property="skos:scopeNote">Each Public Service is denoted by a name, for example 'change of address' for the Public Service which covers the registering of a change of address. The official name is the one allocated by the competent authority.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Public%20Service%3Apolicy%20code" typeof="rdfs:Property" resource="http://purl.org/dc/terms/type">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/type" data-toggle="tooltip" data-content="http://purl.org/dc/terms/type" data-placement="right">
+                            policy code</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
+                            
+                          
+                        </td>
+			<td>1..*</td>
+                        <td property="rdfs:comment">Controlled vocabulary from Annexes I and II which determines the procedure(s) or information area(s) relevant for the Public Service.</td>
+                        <td property="skos:scopeNote">A Public Service can fall under one or several codes. In the future, additional classifications will be discussed regarding the Public Services.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Public%20Service%3Aproduces" typeof="rdfs:Property" resource="http://purl.org/vocab/cpsv#produces">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/vocab/cpsv#produces" data-toggle="tooltip" data-content="http://purl.org/vocab/cpsv#produces" data-placement="right">
+                            produces</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Output" data-placement="right">Output</a>
+			    
+                          
+                        </td>
+			<td>0..*</td>
+                        <td property="rdfs:comment">The Output, or actual result of a Public Service.</td>
+                        <td property="skos:scopeNote">Example, a Public Service 'registration of a car', can have as output the 'Registration certificate'.</td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Public%20Service%3Aspatial" typeof="rdfs:Property" resource="http://purl.org/dc/terms/spatial">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/spatial" data-toggle="tooltip" data-content="http://purl.org/dc/terms/spatial" data-placement="right">
+                            spatial</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Location" data-placement="right">Location</a>
+			    
+                          
+                        </td>
+			<td>1..*</td>
+                        <td property="rdfs:comment">The Location, or given area, in which the Public Service is available, typically the area covered by a specific competent authority.</td>
+                        <td property="skos:scopeNote">The value of the property should be the URI of the region as defined in an authoritative list of regions. In Europe, this is likely to be NUTS (Nomenclature of Territorial Units for Statistics) or LAU (Local administrative units).</td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+              <div class="region region--no-space-top">
+              <h3 class="h3" id="Webpage"><a href="http://xmlns.com/foaf/spec/#term_page" data-toggle="tooltip" data-content="http://xmlns.com/foaf/spec/#term_page" data-placement="right">Webpage</a></h3>
+                <div class="region region--no-space-top">
+                  <dl>
+                    <dt>Description</dt><dd>The webpage containing the information about the Public Service.</dd>
+                    
+		    
+                    <dt>Properties</dt>
+		     
+                    <dd>For this entity the following properties are defined:
+                      <a href="#Webpage%3Ahas%20language">has language</a>, 
+                      <a href="#Webpage%3Aidentifier">identifier</a>, 
+                      <a href="#Webpage%3Atype">type</a>.</dd>
+                    
+                  </dl>
+                </div>
+		 
+                <div class="u-table-overflow">
+                  <table class="data-table">
+                    <thead>
+                      <tr class="data-table__header">
+                        <th class="data-table__header-title--sortable data-table__header-title--sortable-active">Property</th>
+                        <th class="data-table__header-title--sortable">Expected Range</th>
+			<th class="data-table__header-title--sortable">Cardinality</th>
+                        <th class="data-table__header-title--sortable">Description</th>
+                        <th class="data-table__header-title--sortable">Usage</th>
+                        <th class="data-table__header-title--sortable">Codelist</th>
+                      </tr>
+                    </thead>
+
+                    <tbody class="supertype">
+                    
+                      <tr id="Webpage%3Ahas%20language" typeof="rdfs:Property" resource="http://purl.org/dc/terms/language">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/language" data-toggle="tooltip" data-content="http://purl.org/dc/terms/language" data-placement="right">
+                            has language</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			    
+			    <a href="#Linguistic System" data-placement="right">Linguistic System</a>
+			    
+                          
+                        </td>
+			<td>1</td>
+                        <td property="rdfs:comment">The Language(s) in which the Webpage is available.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Webpage%3Aidentifier" typeof="rdfs:Property" resource="http://www.w3.org/ns/dcat#accessURL">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://www.w3.org/ns/dcat#accessURL" data-toggle="tooltip" data-content="http://www.w3.org/ns/dcat#accessURL" data-placement="right">
+                            identifier</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2001/XMLSchema#anyURI" data-toggle="tooltip" data-content="http://www.w3.org/2001/XMLSchema#anyURI" data-placement="right">URI</a>
+                            
+                          
+                        </td>
+			<td>1..*</td>
+                        <td property="rdfs:comment">The URL of the Webpage.</td>
+                        <td property="skos:scopeNote"></td>
+                        <td></td>
+                      </tr>
+                    
+                      <tr id="Webpage%3Atype" typeof="rdfs:Property" resource="http://purl.org/dc/terms/type">
+                        <td>
+                          <code property="rdfs:label">
+                            <a href="http://purl.org/dc/terms/type" data-toggle="tooltip" data-content="http://purl.org/dc/terms/type" data-placement="right">
+                            type</a>
+                          </code>
+                        </td>
+                        <td>
+                          
+			     
+			    <a href="http://www.w3.org/2004/02/skos/core#Concept" data-toggle="tooltip" data-content="http://www.w3.org/2004/02/skos/core#Concept" data-placement="right">Code</a>
+                            
+                          
+                        </td>
+			<td>0..2</td>
+                        <td property="rdfs:comment">The kind of information that can be found on the Webpage.</td>
+                        <td property="skos:scopeNote">The Single Digital Gateway Regulation defines three types of information: rights/obligation and rules, procedures and assistance services. Within this context for the Webpages, we will make use of the first two: information on rights/obligations and rules and information on procedures, respectively identified as information and procedure. The types are: {information;procedure}.</td>
+                        <td></td>
+                      </tr>
+                    
+                    </tbody>
+                  </table>
+                </div>
+      			  
+            </div>
+            
+
+            
+	    
+	    <!--
+	    
+	    <div class="region region--no-space-top" id="examples">
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Examples</h2>
+                (non-normative)
+                
+		</br>
+		<p>placeholder</p>
+                
+            </div>
+	    
+	    -->
+	    
+	    <div class="region region--no-space-top" id="changelog">
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">Changelog w.r.t. previous version</h2>
+                (non-normative)
+                
+<p>
+No changelog defined.
+<p>
+
+            </div>
+	    
+            <div class="region region--no-space-top" id="jsonld">
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">JSON-LD context</h2>
+                (non-normative)
+                
+		<p>A reusable JSON-LD context definition for this Core Vocabulary is retrievable at: <a href="/doc/sdg/context/sdg_en.jsonld" target="_blank">/doc/sdg/context/sdg_en.jsonld</a></p>
+                
+            </div>
+	    <!--
+            <div class="region region--no-space-top" id="shacl">
+                <h2 class="h2" aria-level="1" role="heading" id="h2_sotd">SHACL template</h2>
+                (non-normative)
+                
+		<p>A reusable SHACL template for this Core Vocabulary is retrievable at: <a href="/doc/sdg/shacl/sdg_en-SHACL.ttl" target="_blank">/doc/sdg/shacl/sdg_en-SHACL.ttl</a></p>
+                
+            </div>
+	    -->
+          </div>
+          <div class="col--3-12 col--12-12--s col--4-12--m push--1-12 push--reset--m" id="sideNav">
+              <nav class="side-navigation js-sticky region" id="sideNav">
+                  <div class="side-navigation__content js-scrollspy">
+                      <div class="side-navigation__group">
+                          <ul>
+                              <li class="side-navigation__item">
+                                  <a href="#introduction">Introduction</a>
+                              </li>
+                              <li class="side-navigation__item">
+                                  <a href="#summary">Summary</a>
+                              </li>
+                              <li class="side-navigation__item">
+                                  <a href="#status">Status of this document</a>
+                              </li>
+                              <!--
+			      <li class="side-navigation__item">
+                                  <a href="#license">License</a>
+                              </li>
+			      -->
+                              <li class="side-navigation__item">
+                                  <a href="#conformance">Conformance</a>
+                              </li>
+                              <li class="side-navigation__item">
+                                  <a href="#overview">Overview</a>
+                              </li>
+			      <!--
+			      <li class="side-navigation__item">
+                                  <a href="#examples">Examples</a>
+			      -->
+			      <li class="side-navigation__item">
+                                  <a href="#changelog">Changelog</a>
+                              </li>
+                              <li class="side-navigation__item">
+                                  <a href="#jsonld">JSON-LD Context</a>
+                              </li>
+			      <!--
+                              <li class="side-navigation__item">
+                                  <a href="#shacl">SHACL template</a>
+                              </li>
+			      -->
+                          </ul>
+                      </div>
+                  </div>
+              </nav>
+          </div>
+    <!-- End page content -->
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="https://dij151upo6vad.cloudfront.net/2.latest/js/vlaanderen-ui.js"></script>
+  <script type="text/javascript">
+      function iframeLoaded() {
+         var iFrameID = document.getElementById('exampleiframe');
+          if(iFrameID) {
+                // here you can make the height, I delete it first, then I make it again
+                iFrameID.height = "";
+                iFrameID.height = iFrameID.contentWindow.document.body.scrollHeight + "px";
+          }   
+      }
+  </script> 
+
+  <style>
+    @media screen {  /* hide from IE3 */
+      a[href]:hover { background: #ffa }
+    }
+    p {
+      text-align: justify;
+    }
+    tr:nth-child(even) td     { background-color:#eee; }
+    dt, dd { margin-top: 0; margin-bottom: 0 } /* opera 3.50 */
+    dt { font-weight: bold }
+    pre, code { font-family: monospace } /* navigator 4 requires this */
+    em {
+          font-style: italic;
+    }
+    img {
+       width: 100%;
+    }
+    .tooltip {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 800;
+      display: none;
+      max-width: 128rem;
+      background: #fff;
+      border: 1px solid #ccc;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      font-size: 1.4rem;
+      color: #000;
+      background-clip: padding-box;
+    }
+    .logo {
+      content: url("html/isa-icon.png");
+      height: 20%;
+      min-width: 10px;
+      min-height: 10px;
+      position:absolute;
+      top: 20px;
+      left: 20px;
+    }
+    .header {
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
+    html, h1, h2, h3, h4, code {
+      font-family: "Arial" !important;
+    }
+  </style>
+</body>
+</html>

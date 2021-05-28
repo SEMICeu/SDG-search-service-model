@@ -1,5 +1,5 @@
-# SDG-services-model
-This is the repository for defining the Single Digital Gateway services model
+# SDG-search-service-model
+This is the repository for defining the Single Digital Gateway search service model
   
 ## All relevant documents are available:
  * [The analysis](https://github.com/catalogue-of-services-isa/SDG-services-model/tree/master/SDG%20concepts) with identified concepts from the SDGR

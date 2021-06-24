@@ -1,13 +1,14 @@
 # SDG-search-service-model
-This is the repository for defining the Single Digital Gateway Search Service model. The latest release of the model is [v1.00](https://github.com/catalogue-of-services-isa/SDG-search-service-model/tree/master/releases/v1.00).
+This is the repository for defining the Single Digital Gateway Search Service model. The latest release of the model is [v1.00](https://catalogue-of-services-isa.github.io/SDG-search-service-model/releases/v1.00/).
   
 ## All relevant documents are available:
+ * [Scoping document](https://github.com/catalogue-of-services-isa/SDG-search-service-model/blob/master/Scoping%20SDG%20Services%20model.pdf): Scoping document explaining the problem statement, objectives and approach of the model.
  * [The releases](https://github.com/catalogue-of-services-isa/SDG-search-service-model/tree/master/releases) of the model.
  * [Codelists](https://github.com/catalogue-of-services-isa/SDG-search-service-model/tree/master/codelists) that are used by the model.
  * [Webinars](https://github.com/catalogue-of-services-isa/SDG-search-service-model/tree/master/webinars): Reports and presentations of the webinars in 2021 for creating the model. 
  * [The analysis](https://github.com/catalogue-of-services-isa/SDG-services-model/tree/master/SDG%20concepts) to create a first list of concepts from the SDGR that served as the basis for the model. 
  * [Archive](https://github.com/catalogue-of-services-isa/SDG-services-model/tree/master/archive): Modelling activities from 2019-2020, including technical specifications, classifications and visualised models.
- * [Scoping document](https://github.com/catalogue-of-services-isa/SDG-search-service-model/blob/master/Scoping%20SDG%20Services%20model.pdf): Scoping document explaining the problem statement, objectives and approach of the model.
+
      
 The context and goals of this action, the role of ISA² and the Catalogue of Services and the contact details can be found here:   https://github.com/catalogue-of-services-isa/SDG-services-model/wiki/SDG-services-model-Home-Page
 

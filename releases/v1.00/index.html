@@ -59,7 +59,7 @@
         <div class="layout layout--wide">
           <div class="grid u-hr">
             <div class="col--9-12 col--1-1--s">
-              <h1 class="h1">SDG search service model</h1>
+              <h1 class="h1">SDG Search Service model</h1>
 
               <div class="head" role="status" id="status">
               <dl>
@@ -132,7 +132,7 @@
               <div class="head" role="metainfo" id="metainfo">
               <dl>
               <dt>Source</dt><dd><a href="https://github.com/catalogue-of-services-isa/SDG-search-service-model/tree/master/releases/v1.00">https://github.com/catalogue-of-services-isa/SDG-search-service-model/tree/master/releases/v1.00</a></dd>
-              <!--<dt>Changelog</dt><dd><a href="https://github.com/bertvannuffelen/semiceuthema/blob/6c4684483131341ff976cc07b8d7c967e5b0d84b/CHANGELOG">https://github.com/bertvannuffelen/semiceuthema/blob/6c4684483131341ff976cc07b8d7c967e5b0d84b/CHANGELOG</a></dd>-->
+              <!--<dt>Changelog</dt><dd><a href="https://github.com/bertvannuffelen/semiceuthema/blob/2b1b3dfd45e6cb612f17e6ca7bb98edf43a57f37/CHANGELOG">https://github.com/bertvannuffelen/semiceuthema/blob/2b1b3dfd45e6cb612f17e6ca7bb98edf43a57f37/CHANGELOG</a></dd>-->
               <dt>Feedback</dt><dd><a href="https://github.com/catalogue-of-services-isa/SDG-search-service-model/issues">https://github.com/catalogue-of-services-isa/SDG-search-service-model/issues</a></dd>
               <!--<dt>Registry of standards</dt><dd><a href="TODO">TODO</a></dd>-->
 
@@ -194,7 +194,34 @@ The main idea of the SDG Search Service model is to enable competent authorities
             <div class="region region--no-space-top typography" id="conformance">
               <h2 class="h2" id="conformance" aria-level="1" role="heading">Conformance</h2>
               
-              <p>TBD</p>
+              <p>
+<b>Provider requirements</b>
+<br>
+	In order to conform to the SDG Search Service model, any implementation MUST:
+
+
+<ul>
+<li>Respect the cardinalities indicated in the model;</li>
+<li>Define each property value according to the type specified;</li>
+<li>Use the terms (classes and properties) in a way consistent with their semantics.</li>
+</ul>
+
+The SDG Search Service model is technology-neutral and a publisher may use any of the terms defined in this document encoded in any technology although RDF and XML are preferred.
+
+</p>
+<p>
+<b>Receiver requirements</b>
+<br>
+In order to conform to the SDG Search Service model, any application that receives metadata MUST be able to:
+<br>
+<ul>
+<li>Process information for all classes;</li>
+<li>Process information for all properties;</li>
+<li>Process information for alle controlled vocabularies specified.</li>
+</ul>
+
+"Processing" means that receivers must accept incoming data and transparently provide these data to applications and services. It does neither imply nor prescribe what applications and services finally do with the data (parse, convert, store, make searchable, display to users, etc.).
+		</p>
               
             </div>
             <div class="region region--no-space-top" id="overview">
@@ -1171,7 +1198,6 @@ No changelog defined.
       height: 20%;
       min-width: 10px;
       min-height: 10px;
-      position:absolute;
       top: 20px;
       left: 20px;
     }

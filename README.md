@@ -1,5 +1,5 @@
 # SDG-search-service-model
-This is the repository for defining the Single Digital Gateway Search Service model. The latest release of the model is [v1.00](https://catalogue-of-services-isa.github.io/SDG-search-service-model/releases/v1.00/).
+This is the repository for defining the Single Digital Gateway Search Service model. The latest release of the model is [v1.00](https://catalogue-of-services-isa.github.io/SDG-search-service-model/releases/v1.00/)! 
   
 ## All relevant documents are available:
  * [Scoping document](https://github.com/catalogue-of-services-isa/SDG-search-service-model/blob/master/Scoping%20SDG%20Services%20model.pdf): Scoping document explaining the problem statement, objectives and approach of the model.

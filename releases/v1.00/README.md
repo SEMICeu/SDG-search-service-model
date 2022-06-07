@@ -2,7 +2,7 @@
 
 The version 1.00 of the SDG Search Service model is available as: 
 
-*    [HTML as specification](https://catalogue-of-services-isa.github.io/SDG-search-service-model/releases/v1.00/)
+*    [HTML as specification](https://semiceu.github.io/SDG-search-service-model/releases/v1.00/)
 *    [EAP as UML diagram](https://github.com/catalogue-of-services-isa/SDG-search-service-model/blob/master/releases/v1.00/html/overview.jpg)
 
 If you have any comments on the SDG Search Service model v1.00, please open an issue from [here](https://github.com/catalogue-of-services-isa/SDG-search-service-model/issues). 

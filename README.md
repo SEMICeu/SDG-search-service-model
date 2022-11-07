@@ -22,7 +22,7 @@ Through this exercise, we are deriving in a pragmatic way with you the most impo
 ## Archive
 In the past year, we have created a data model for the SDGR in a different approach, starting from all the information available in the regulation and creating an elaborate data model. This work can be used as a referral and guidance for the current exercise, which starts from concrete use cases: the findability, understandability and quality of the information from the SDGR, and in particular from articles 9 to 11.  All the issues that are still open in the repository refer to the work on the data model classified to the archive, but can serve as reference for the latest modelling activities. 
 
-In the [archive](https://github.com/SEMICeu/SDG-services-model/tree/master/archive) we have gathered all the information from previous data modelling exercises (two versions v0.01 and v0.02 have been created):
+In the [archive](https://github.com/SEMICeu/SDG-search-service-model/tree/master/archive) we have gathered all the information from previous data modelling exercises (two versions v0.01 and v0.02 have been created):
 * Draft model as a visual diagram
 * Technical specifications of the draft model
 * An SDGR analysis for creating this draft model

@@ -31,3 +31,68 @@ In the [archive](https://github.com/SEMICeu/SDG-search-service-model/tree/master
 * Examples
 
 If you have any questions, do not hesitate to reach out to us via email (barthelemy.florian@pwc.com) or post an issue on this repository.
+
+## Webinar Overview
+This section offers an overview of the webinars and events related to Single Digital Gateway Search Service model.
+
+The table below shows webinars and events related to **latest version of Single Digital Gateway Search Service model**:
+<table>  
+<tbody>  
+<tr>  
+<td>  
+<p><strong>Title</strong></p>  
+</td>  
+<td>  
+<p><strong>Date</strong></p>  
+</td>  
+</tr>  
+<tr>  
+<td>  
+<p><a href="https://joinup.ec.europa.eu/collection/semic-support-centre/event/workshop-sdg-data-model-21-february-2020-900-1600-cet">Workshop on the SDG Data Model</a></p>  
+</td>  
+<td>  
+<p>21/02/2020</p>  
+</td>  
+</tr>  
+<tr>  
+<td>  
+<p><a href="https://joinup.ec.europa.eu/collection/semic-support-centre/event/catalogue-services-webinar-sdg-metadata-model-11th-february-2020-1000-1200-cet">Catalogue of Services Webinar - SDG Metadata Model</a></p>  
+</td>  
+<td>  
+<p>11/02/2020</p>  
+</td>  
+</tr>  
+<tr>  
+<td>  
+<p><a href="https://joinup.ec.europa.eu/collection/semic-support-centre/event/catalogue-services-webinar-23-january-2020-1000-1200-cet">Catalogue of Services Webinar</a></p>  
+</td>  
+<td>  
+<p>23/01/2020</p>  
+</td>  
+</tr>  
+<tr>  
+<td>  
+<p><a href="https://joinup.ec.europa.eu/collection/semic-support-centre/event/catalogue-services-webinar-12-november-2019-1000-1200-cet">Catalogue of Services Webinar</a></p>  
+</td>  
+<td>  
+<p>12/11/2019</p>  
+</td>  
+</tr>  
+<tr>  
+<td>  
+<p><a href="https://joinup.ec.europa.eu/collection/semic-support-centre/event/technical-workshop-catalogue-public-services-vis-vis-sdg-implementation-16-may-2019-930-1730-cet">Technical workshop on Catalogue of Public Services vis-à-vis the SDG implementation</a></p>  
+</td>  
+<td>  
+<p>16/05/2019</p>  
+</td>  
+</tr>  
+<tr>  
+<td>  
+<p><a href="https://joinup.ec.europa.eu/collection/semic-support-centre/event/catalogue-services-webinar-10-april-2019-930-1130-cet">Catalogue of Services Webinar</a></p>  
+</td>  
+<td>  
+<p>10/04/2019</p>  
+</td>  
+</tr>  
+</tbody>  
+</table>  
